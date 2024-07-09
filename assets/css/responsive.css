@@ -1,0 +1,60 @@
+/* pc */
+@media (min-width: 992px) {
+}
+
+/* tablet + mobile */
+@media (max-width: 991.98px) {
+  .navbar {
+    display: none;
+  }
+  /* chuyen logo vao giua */
+  .header-top {
+    position: relative;
+  }
+  .sign__item {
+    position: absolute;
+    right: 0;
+  }
+  .logo {
+    position: absolute;
+    margin-top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .menu-header__icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .menu-checkbox__icon{
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #fff;
+  }
+  /* overlay */
+  .menu-overlay{
+    position: fixed;
+    background: rgba(0 ,0 ,0 ,0.3);
+    inset: 0;
+    z-index: 1;
+    /* mac dinh la k hien */
+    /* an van click dc */
+    opacity: 0;
+    /* an va khong click dc vao overlay */
+    visibility: hidden;
+    transition: 0.2s;
+  }
+  /* check */
+  .menu-checkbox:checked ~ .menu-overlay{
+    opacity: 1;
+    visibility: visible;
+  }
+}
+/* tablet */
+@media (min-width: 768px) and(max-width: 991.98px) {
+}
+/* mobile */
+@media (max-width: 767.98px) {
+}

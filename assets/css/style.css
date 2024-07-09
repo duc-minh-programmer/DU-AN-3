@@ -236,13 +236,15 @@ h2 {
   line-height: 1.75;
   margin-bottom: 18px;
 }
-.help__list .choose a {
+.help__list .help__item:hover a {
   color: #2e80ce;
 }
-.help__list .choose {
+.help__list .help__item:hover {
   border: 16px solid rgb(64, 83, 255);
   position: relative;
   bottom: 16px;
+  transition: 0.5s;
+  cursor: pointer;
 }
 .help__item {
   width: 338px;
