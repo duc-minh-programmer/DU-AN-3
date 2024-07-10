@@ -40,8 +40,8 @@ a:hover {
 /* code header */
 .header {
   background-color: rgb(7, 6, 107);
-  /* height: 100vh; */
-  height: 800px;
+  height: 100vh;
+  /* height: 800px; */
   margin-bottom: 170px;
 }
 .header-top {
@@ -196,14 +196,14 @@ h2 {
 }
 .services__item--title {
   color: #10375c;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 600;
 }
-.services__item--content {
+.services__item--right {
   color: #575f66;
   font-weight: 300;
   line-height: 1.75;
-  width: 308px;
+  width: 300px;
 }
 .services {
   margin-bottom: 170px;
@@ -334,6 +334,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .vector-right {
   background: #2e80ce;

@@ -91,6 +91,22 @@
   .navbar__item{
     margin-bottom: 20px;
   }
+  /* phan hero */
+  .header-bottom{
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .header{
+    height: 200vh;
+  }
+  /* service */
+  .services__bottom{
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+  }
+  /* how */
+  
 }
 /* tablet */
 @media (min-width: 768px) and(max-width: 991.98px) {
