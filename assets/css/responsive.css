@@ -1,5 +1,8 @@
 /* pc */
 @media (min-width: 992px) {
+  .mobile-header{
+    display: none;
+  }
 }
 
 /* tablet + mobile */
@@ -50,6 +53,43 @@
   .menu-checkbox:checked ~ .menu-overlay{
     opacity: 1;
     visibility: visible;
+  }
+  /* code phan menu drawer */
+  .menu-drawer{
+    position: fixed;
+    background-color: rgb(80, 22, 22);
+    inset: 0 40% 0 0;
+    padding: 30px;
+    z-index: 2;
+    transform: translateX(-100%);
+    transition: 0.3s;
+  }
+  .menu-checkbox:checked ~ .menu-drawer{
+    transform: translateX(0);
+  }
+  .menu-out-icon{
+    width: 30px;
+    color: whitesmoke;
+    cursor: pointer;
+  }
+  .menu-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .menu-logo{
+    left: 12%;
+  }
+  /* nav list mb */
+  #navbar__list--mobile{
+    margin-top: 25px;
+  }
+  .navbar__link{
+    display: block;
+  }
+  .navbar__item{
+    margin-bottom: 20px;
   }
 }
 /* tablet */
