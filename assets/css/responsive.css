@@ -105,12 +105,89 @@
     row-gap: 40px;
     align-items: center;
   }
+  .all-services{
+    margin: 0 auto;
+  }
   /* how */
-  
+  .help__content{
+    width: 430px;
+  }
+  .help__list{
+    display: grid;
+    grid-template-columns: 1;
+    row-gap: 20px;
+  }
+  .help{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .help__item{
+    width: 400px;
+  }
+  /* promise */
+  .promise{
+    flex-direction: column;
+  }
+  .promise__img img{
+    width: 300px;
+  }
+  .promise__img img:last-child{
+    margin-left: 170px;
+  }
+  .promise__content{
+    width: 400px;
+  }
+  .promise__more{
+    margin: 0 auto;
+  }
+  /* doctor list */
+  .doctors__list{
+    display: grid;
+    justify-content: center;
+  }
+  /* popular */
+  .popular__phone{
+    display: none;
+  }
+  .popular__content{
+    margin: 0 -480px 0;   
+  }
+  .popular__content h2,
+  .popular__content p{
+    width: 400px;
+  }
+  /* news */
+  .news{
+    display: grid;
+    row-gap: 20px;
+  }
+  /* appointment */
+  .appointment__content{
+    width: 300px;
+  }
+  /* footer */
+  .footer__box{
+    display: grid;
+  }
+  .left-footer{
+    display: flex;
+  }
+  .footer__logo{
+    margin: 0 -210px ;
+  }
+  .sp-help{
+    display: flex;
+    gap: 40px;
+  }
+  .left-footer .content{
+    margin-top: 40px;
+  }
 }
 /* tablet */
 @media (min-width: 768px) and(max-width: 991.98px) {
 }
 /* mobile */
 @media (max-width: 767.98px) {
+  /* luoi code :)) */
 }
