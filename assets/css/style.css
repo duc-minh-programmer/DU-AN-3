@@ -348,7 +348,7 @@ h2 {
 }
 .popular__content {
   background: #2e80ce;
-  padding-left: 500px;
+  margin-left: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -358,6 +358,7 @@ h2 {
 .popular__phone {
   position: absolute;
   margin-top: -95px;
+  margin-left: 20px;
 }
 
 .popular__content h2 {

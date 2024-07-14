@@ -128,12 +128,14 @@
   /* promise */
   .promise{
     flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .promise__img{
+    
   }
   .promise__img img{
-    width: 300px;
-  }
-  .promise__img img:last-child{
-    margin-left: 170px;
+    max-width: 400px;
   }
   .promise__content{
     width: 400px;
@@ -144,19 +146,34 @@
   /* doctor list */
   .doctors__list{
     display: grid;
+    grid-template-columns: repeat(2,1fr);
     justify-content: center;
+    gap: 20px;
+  }
+  .doctors__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   /* popular */
-  .popular__phone{
+  .popular{
+    margin-top: 170px;
+    position: relative;
+    justify-content: center;
+  }
+  .popular__phone img{
+    position: absolute;
     display: none;
   }
-  .popular__content{
-    margin: 0 -480px 0;   
+  .popular__content{  
+    margin: 0 auto;
+    padding: 0 50px;
   }
-  .popular__content h2,
+  /* .popular__content h2,
   .popular__content p{
     width: 400px;
-  }
+  } */
   /* news */
   .news{
     display: grid;
