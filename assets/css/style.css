@@ -40,7 +40,7 @@ a:hover {
 /* code header */
 .header {
   background-color: rgb(7, 6, 107);
-  height: 100vh;
+  height: 800px;
   /* height: 800px; */
   margin-bottom: 170px;
 }
@@ -360,7 +360,6 @@ h2 {
   margin-top: -95px;
   margin-left: 20px;
 }
-
 .popular__content h2 {
   width: 489px;
   color: #fff;
@@ -383,6 +382,10 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.pop__app:hover {
+  cursor: pointer;
+  background-color: #044888;
 }
 .popular__download {
   display: flex;
@@ -475,7 +478,11 @@ h2 {
 .footer__support {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
+}
+.sp-help {
+  display: flex;
+  gap: 8rem;
 }
 .footer__support a {
   color: #a9b3bb;
